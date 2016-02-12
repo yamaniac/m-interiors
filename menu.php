@@ -13,10 +13,10 @@
 	<div class="row">
 		<div class="col-md-4">
 		<a href="index.php">	<h1 class="page-header">
-			Maestro - Real Estate
-		</div></h1> </a>
+			Maestro - Interiors</h1> </a>
+		</div>
 		<div id="adj"class="col-md-5 pull-right ">
-			<div class="header_contact">
+			<div class="header_contact pull-right">
 				<ul>
 					<li>
 					<i class="fa-1x fa fa-phone radius"></i>
@@ -39,24 +39,21 @@
 					<li>
 					<a href="index.php">Home</a>
 					</li>
+					
 					<li>
-					<a href="#">About Us</a>
+					<a href="events.php">Contact</a>
 					</li>
-					<li class="dropdown">
-					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
-					<ul class="dropdown-menu">
-						<li>
-						<a href="#">Completed Projects</a>
-						</li>
-						<li>
-						<a href="#">Ongoing Projects</a>
-						</li>
-					</ul>
+                    
+                    	<li>
+					<a href="register.php">Contact</a>
 					</li>
-					<li>
-					<a href="#">News</a>
+                    
+                    	<li>
+					<a href="Fallery.php">Contact</a>
 					</li>
-					<li>
+                    
+                    
+                    	<li>
 					<a href="contact.php">Contact</a>
 					</li>
 				</ul>

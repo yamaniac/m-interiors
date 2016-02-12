@@ -2,10 +2,7 @@ html,body {
 	height:100%;
 }
 
-
-
 body {
-	padding-top:50px;
 	/* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     font-family:arial;
 }
@@ -63,6 +60,10 @@ h1 {
     text-decoration: none;
 }
 
+.page-header{
+    border:0px;
+}
+
 .header_contact {
 	margin-left:56px;
 	margin-top:14px;
@@ -91,12 +92,26 @@ i.radius {
 	text-align:center;
 	color:#2d257e;
 }
+
+
+.sc_title {
+	color:#2d257e;
+}
+
+h2.sc_title{
+    border-bottom:1px solid #000000;
+}
+
+.sc_title strong {
+	color:#000000;
+}
+
 .descp p {
-	border-top:1px solid #cccccc;
 	margin:0 auto;
 	text-align:center;
-	width:40%;
+	width:100%;
 }
+
 
 .prpty_hglights{
     background-color: #000000;
@@ -108,6 +123,11 @@ i.radius {
 .prpty_hglights ul {
     margin:0px;
     padding:0px;
+}
+
+.navbar-fixed-top{
+ height:20px;
+ position: relative!important;   
 }
 
 
@@ -268,7 +288,7 @@ i.radius {
 }
 
 ul.accredits li{
-margin-right: 10px;
+margin-right: 7px;
      
 }
 
@@ -291,6 +311,7 @@ margin-right: 10px;
 /* Home Page Carousel */
 header.carousel {
 	height:50%;
+    margin-top: -20px;
 }
 header.carousel .item,header.carousel .item.active,header.carousel .carousel-inner {
 	height:100%;
@@ -334,13 +355,13 @@ header.carousel .fill {
 .container .mix,
 .container .gap{
   display: inline-block;
-  width: 49%;
+  width: 33%;
 }
 
 .container .mix{
   text-align: left;
-  background: #03899c;
-  margin-bottom: 2%;
+  background: #cccccc;
+  margin-bottom: 2px;;
   display: none;
 }
 
@@ -367,6 +388,160 @@ header.carousel .fill {
   display: inline-block;
   padding-top: 60%;
 }
+
+#project-version-two .gallery-filter {
+    border-bottom: 1px solid #e2e2e2;
+    display: inline-block;
+    margin-bottom: 50px;
+    padding: 0;
+    text-align: center;
+}
+
+#project-version-two .gallery-filter li {
+    display: inline;
+}
+
+.gallery-filter-wrapper {
+    text-align: center;
+}
+#project-version-two .gallery-filter li span {
+    color: #787878;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Poppins",sans-serif;
+    font-size: 13px;
+    font-weight: 600 !important;
+    line-height: 25px;
+    padding: 5px 20px;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+#project-version-two .gallery-filter li.active span::before {
+    background: #000 none repeat scroll 0 0;
+    bottom: -1px;
+    content: " ";
+    display: block;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+#project-version-two .gallery-filter li.active span, #project-version-two .gallery-filter li:hover span {
+    color: #000000;
+}
+#project-version-two .masonary-gallery {
+    padding: 0;
+    position: relative;
+}
+#project-version-two .masonary-item {
+    float: left;
+    height: 250px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    padding: 0 8px;
+    position: relative;
+    width: 25%;
+}
+#project-version-two .masonary-item.width-1 {
+    width: 25%;
+}
+#project-version-two .masonary-item.width-2 {
+    width: 50%;
+}
+#project-version-two .masonary-item.height-1 {
+    height: 513px;
+}
+#project-version-two .masonary-item img {
+    height: 100%;
+    width: 100%;
+}
+#project-version-two .masonary-item .img-wrap {
+    background-size: contain;
+    height: 100%;
+    position: relative;
+}
+#project-version-two .masonary-item .img-wrap .content-wrap {
+    cursor: pointer;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+#project-version-two .masonary-item:hover .img-wrap .content-wrap {
+    opacity: 1;
+}
+#project-version-two .masonary-item .img-wrap .content-wrap .border {
+    border: 1px solid #fff;
+    height: 100%;
+    width: 100%;
+}
+#project-version-two .masonary-item .img-wrap .content-wrap h4 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+#project-version-two .masonary-item .img-wrap .content-wrap span {
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    text-transform: capitalize;
+}
+#project-version-two .masonary-item .img-wrap .content-wrap .content {
+    position: relative;
+    top: 45%;
+}
+
+
+.services{
+    background-image:url("../images/service-bg.jpg") ;
+    background-attachment: fixed;
+    height:500px;
+    width:100%;
+    background-size: cover;
+    
+}
+
+.services{
+    color:#ffffff;
+}
+
+.services h2{
+    text-align:center;
+    color:#ffffff;
+}
+
+.services p{
+    font-size:14px;
+
+}
+
+.service_items img{
+    margin-left: 40px;
+    text-align: center;
+}
+
+.services a{
+    color:#ffffff;
+}
+
+.top-push{
+    margin-top:110px;
+}
+
+
+
 @media screen and (max-width:768px) {
 	.media-object {
 		margin-top: 0;
@@ -408,6 +583,10 @@ display:none;
     display:none;
 }
     
+    .services{
+    height:auto;
+}
+    
 }
 
 footer {
@@ -447,7 +626,13 @@ footer {
     .header_contact li {
     float: left;
     padding-right: 8px;
+    
 }
+
+    .services{
+    height:auto;
+}
+    
 }
 @media(max-width:767px) {
 	.img-portfolio {
@@ -483,5 +668,13 @@ footer {
 
 
 }
+
+    .services{
+    height:auto;
+}
+
+.footer{
+    font-size:9px;
+}    
     
 }
